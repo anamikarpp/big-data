@@ -1,4 +1,4 @@
-package com.edge.A_basic;
+package MapReduce.Aggrgation.Sum;
 
 import java.io.IOException;
 import java.net.URI;
