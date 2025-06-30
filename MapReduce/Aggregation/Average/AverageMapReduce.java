@@ -74,6 +74,7 @@ class AverageReducer extends Reducer<Text,IntWritable,Text,IntWritable>{
 			sum+=value.get();
 			count+=1;
 		}
-		context.write(key, new IntWritable(sum/count));
+		float average=(float) sum/count;
+		context.write(key, new FloatWritable(average));
 	}
 }
