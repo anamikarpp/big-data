@@ -1,0 +1,8 @@
+listen
+silent
+enlist
+rat
+tar
+art
+hello
+world
